@@ -48,7 +48,9 @@ function addNewProduct() {
 
             if (err) throw err;
             console.log("");
+            console.log("");
             console.log("Product successfully added.");
+            console.log("");
             console.log("");
             start();
         });
@@ -97,7 +99,11 @@ function addInventory() {
                 item_id: chosenItem.item_id
             }], function(error) {
                 if (error) throw err;
-                console.log("Successful added!");
+                console.log("");
+                console.log("");
+                console.log("Successfully added!");
+                console.log("");
+                console.log("");
             })
 
         });
