@@ -104,14 +104,15 @@ function addInventory() {
                 console.log("Successfully added!");
                 console.log("");
                 console.log("");
+                console.log("");
+                start();
             })
 
         });
 
 
     })
-    console.log("");
-    start();
+
 
 };
 
@@ -129,6 +130,8 @@ function view() {
             console.log("Inventory: " + results[i].stock_quantity);
 
         }
+        console.log("");
+        console.log("");
 
     });
     console.log("");
@@ -149,7 +152,8 @@ function lowInventory() {
             }
 
         }
-
+        console.log("");
+        console.log("");
     });
     console.log("");
     start();
