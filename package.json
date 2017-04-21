@@ -1,5 +1,5 @@
 {
-  "name": "hw12",
+  "name": "hw-12-bamazon",
   "version": "1.0.0",
   "description": "This is an online sotre simulator.",
   "main": "bamazonCustomer.js",
@@ -11,5 +11,19 @@
   "dependencies": {
     "inquirer": "^3.0.6",
     "mysql": "^2.13.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmneutel/Bamazon.git"
+  },
+  "keywords": [
+    "Online",
+    "shopping",
+    "app"
+  ],
+  "bugs": {
+    "url": "https://github.com/jmneutel/Bamazon/issues"
+  },
+  "homepage": "https://github.com/jmneutel/Bamazon#readme"
 }
