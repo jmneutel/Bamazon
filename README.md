@@ -77,7 +77,7 @@ I created an Amazon-like storefront with a MySQL database. The app will take in 
 * This will only occur after a customer requests the item one time after it reaches 0 inventory, allowing the manager to have the opportunity to add to the item inventory before it is removed from the database. 
 
 ## Technologies Used
-#### Use bullets to list out the technologies used. For example,
+
 - NPM packages
 - Node.js
 - MySQL Database
